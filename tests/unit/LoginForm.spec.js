@@ -13,5 +13,5 @@ describe("LoginForm", () => {
 
     const expectedPayload = { name: "Naser Ahadi" };
     expect(formSubmittedCalls[0][0]).toMatchObject(expectedPayload);
-});
+  });
 });
